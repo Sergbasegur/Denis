@@ -8,3 +8,6 @@
 string [] Text;
 Console.WriteLine("Введите массив через пробел");
 string text = Console.ReadLine();
+Text = text.Split(' ');
+var result = new string[text.Length];
+var res = 0;
