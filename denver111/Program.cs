@@ -11,3 +11,15 @@ string text = Console.ReadLine();
 Text = text.Split(' ');
 var result = new string[text.Length];
 var res = 0;
+
+foreach (var item in Text)
+{ 
+      
+    if(item.Length <= 3)
+    {
+        result[res] = item;
+        res++;
+        
+    }
+    
+}
